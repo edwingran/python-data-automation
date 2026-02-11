@@ -97,14 +97,16 @@ El proyecto realiza las siguientes acciones:
 - pip install -r requirements.txt
 
 ### 3. Ejecutar el script
-- python src/main.py
+- python src/main.py  
+
    Esto genera:
    - Reportes en Excel.
    - Datos en la base de datos.
    - Gráficas en la carpeta reportes.
 
 ### 4. Ejecutar el dashboard
-- streamlit run src/dashboard.py
+- streamlit run src/dashboard.py  
+
    Se abrirá automáticamente en el navegador.
 
 Al finalizar, los reportes se generarán en la carpeta reportes/.
